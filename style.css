@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+:root {
+    /* text color  */
+    --Very-dark-desaturated-blue: hsl(238, 29%, 16%);
+    --Soft-red: hsl(14, 88%, 65%);
+    --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+    --Dark-grayish-blue: hsl(240, 6%, 50%);
+
+    /* Background gradient  */
+    --Soft-violet: hsl(273, 75%, 66%);
+    --Soft-blue: hsl(240, 73%, 65%);
+
+   --Light-grayish-blue: hsl(240, 5%, 91%);
+
+}
+
+body{
+    background-image:linear-gradient(var(--Soft-violet),var(--Soft-blue)) ;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 70rem;
+    height: 35rem;
+    gap: 5rem;
+    
+}
+
+/* this is the image section  */
+.image-section{
+   width:50%;
+   height: 100%;
+   /* overflow: hidden; */
+}
+.parent{
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.image1{
+    position: relative;
+    top: -17rem;
+    left: -35rem;
+    width: 64rem;
+    height: 60rem;
+}
+.image2{
+    position: relative;
+    top: -57rem;
+    left: -96px;
+    width: 35rem;
+}
+.image3{
+    position:relative;
+    top: -22rem;
+    left: -103px;
+    width: 14rem;
+    overflow:visible !important;
+}
+
+
+/* question section  */
+.question-section{
+    width: 50%;
+    height: 100%;
+}
+
